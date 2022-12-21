@@ -1,4 +1,4 @@
-// flashcards_dpatterns4.js - 
+// flashcards_node_csv.js - 
 // Note: this program was created by AI (ChatGPT) along with documentation below 
 
 // an example of how you can use the iterator design pattern 
