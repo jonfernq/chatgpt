@@ -1,4 +1,4 @@
-# flashcards_node_csv.py
+# flashcards_node_csv.js
 
 A JavaScript program created by ChatGPT that works on the Node.js command line and reads in flashcards from a CSV file. 
 
