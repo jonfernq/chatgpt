@@ -7,7 +7,6 @@
 
 # Certainly! Here is a Python program that will accomplish this task:
 
-Copy code
 import os
 
 def find_files(suffix, path):
@@ -64,7 +63,6 @@ if __name__ == "__main__":
 # through the list of file paths returned by find_files, reading the contents 
 # of each file and writing it to the output file. Here is an example of how this could be done:
 
-Copy code
 def write_to_file(suffix, path, output_file):
     files = find_files(suffix, path)
     with open(output_file, 'w') as f:
