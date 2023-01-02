@@ -1,7 +1,10 @@
 # source_listing.py - 
 # list all source code in all sub-directories 
 
-# Write a Python program for Windows to traverse all subdirectories from a directory and write to a file all the JavaScript and HTML source code files if finds.  
+# Write a Python program for Windows to traverse all subdirectories 
+# from a directory and write to a file all the JavaScript 
+# and HTML source code files if finds.  
+
 # Certainly! Here is a Python program that will accomplish this task:
 
 Copy code
@@ -49,11 +52,17 @@ def main():
 
 if __name__ == "__main__":
     main()
-This program defines a function find_files that takes in a file suffix (e.g. ".html") and a path to a directory. It returns a list of all the file paths in the directory (and its subdirectories) that have the specified suffix.
 
-The program also includes a main function with some test cases to demonstrate how the find_files function can be used.
+# This program defines a function find_files that takes in a file suffix (e.g. ".html") 
+# and a path to a directory. It returns a list of all the file paths in the directory 
+# (and its subdirectories) that have the specified suffix.
 
-To write the files to a file, you can simply open a file in write mode and iterate through the list of file paths returned by find_files, reading the contents of each file and writing it to the output file. Here is an example of how this could be done:
+# The program also includes a main function with some test cases 
+# to demonstrate how the find_files function can be used.
+
+# To write the files to a file, you can simply open a file in write mode and iterate 
+# through the list of file paths returned by find_files, reading the contents 
+# of each file and writing it to the output file. Here is an example of how this could be done:
 
 Copy code
 def write_to_file(suffix, path, output_file):
@@ -64,7 +73,9 @@ def write_to_file(suffix, path, output_file):
                 f.write(input_file.read())
 
 write_to_file(".html", "./testdir", "output.txt")
-This will write all the HTML files in the testdir directory (and its subdirectories) to the file output.txt. You can use a similar approach to write JavaScript files to the file by calling write_to_file with the suffix ".js".
 
-
+# This will write all the HTML files in the testdir directory 
+# (and its subdirectories) to the file output.txt. You can use 
+# a similar approach to write JavaScript files to the file 
+# by calling write_to_file with the suffix ".js".
 
