@@ -1,4 +1,4 @@
-Write a Python program for Windows to traverse all subdirectories from a directory and write to a file all the JavaScript and HTML source code files if finds.  [Note: Minor changes in code below to make it work correctly]
+Write a Python program for Windows to traverse all subdirectories from a directory and write to a file all the JavaScript and HTML source code files it finds.  [Note: Minor changes in code below to make it work correctly]
 
 Certainly! Here is a Python program that will accomplish this task:
 ```
